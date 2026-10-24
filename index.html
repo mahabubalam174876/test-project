@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-200 p-16">
+    <section class="grid grid-cols-12 bg-info">
+        <div class="col-span-6">
+            <h1>Logo</h1>
+        </div>
+        <div class="col-span-6 bg-neutral p-8">
+            <h1 class="text-white text-2xl text-center">Registration Form</h1>
+            <form method="POST" class="flex flex-col gap-4">
+                <div class="">
+                    <label class="text-white" for="">Name</label><br>
+                    <input class="input w-full" type="text" name="name" id="" placeholder="Name">
+                </div>
+                <div class="">
+                    <label class="text-white" for="">Username</label><br>
+                    <input class="input w-full" type="text" name="username" id="" placeholder="username">
+                </div>
+                <div class="">
+                    <label class="text-white" for="">Phone</label><br>
+                    <input name="phone" class="input w-full" type="tel" placeholder="Phone Number">
+                </div>
+                <div class="">
+                    <label class="text-white" for="">Email</label><br>
+                    <input name="email" class="input w-full" type="email" placeholder="Email">
+                </div>
+                <div class="">
+                    <label class="text-white" for="">Password</label><br>
+                    <input class="input w-full" type="password" name="password" id="" placeholder="password">
+                </div>
+                <div class="">
+                    <label class="text-white" for="">Confirm Password</label><br>
+                    <input class="input w-full" type="password" name="confirm_password" id="" placeholder="confirm password">
+                </div>
+                <button class="btn btn-primary" type="submit">Sign Up</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
